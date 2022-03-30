@@ -258,7 +258,7 @@ img {
 .footer .social >* {margin-right: 30px;}
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 996px) {
     .navbar {
         flex-direction: column;
         height: 120px;
