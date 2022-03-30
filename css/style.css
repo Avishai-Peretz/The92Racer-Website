@@ -65,7 +65,7 @@ img {
 
 #navbar:hover {
     background-color: #333 ;
-    box-shadow: 0px 0px 10px 8px #333;
+/*     box-shadow: 0px 0px 10px 8px #333; */
 }
 
 #navbar:hover > .logo a .avishai-primary {
