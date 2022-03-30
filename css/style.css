@@ -57,10 +57,10 @@ img {
     height: 5vh;
     min-height: 6vh;
     position: fixed;
-    top: 2%;
+    top: 0;
     padding: 0px;
     transition: 0.5s;
-    box-shadow: 0px 0px 10px 8px #333;
+/*     box-shadow: 0px 0px 10px 8px #333; */
 }
 
 #navbar:hover {
