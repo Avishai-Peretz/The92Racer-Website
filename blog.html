@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/home/92.jpg">
+    <title>Read My Blog</title>
+</head>
+<body id="home">
+    <header class="hero blog">
+        <div id="navbar" class="navbar">
+            <h1 id="logo" class="logo">
+                <a class="text-white" href="./index.html"> <span id="avishai-primary" class="avishai-primary"><i class="fa-solid fa-flag-checkered"></i></i> Avishai</span>Peretz </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a class="right-nav" href="./index.html">Home</a></li>
+                    <li><a class="right-nav" href="./index.html#about">About</a></li>
+                    <li><a class="right-nav" href="./index.html#gallery">Gallery</a></li>
+                    <li><a class="right-nav" href="./index.html#blog">Blog</a></li>
+                    <li><a class="right-nav" href="./index.html#contact">Contact</a></li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Blog</h1>
+        </div>
+    </header>
+    <main>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="./img/blog/blog1.jpg" alt="people">
+                    </div>
+                </div>                
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>First Ride</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>Poseted by <strong>Avishai Peretz</strong> | March 29 2022
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga tempore dolor. Placeat, unde veniam provident nobis et sit reiciendis.
+                        </p>
+                        <a href="./post.html" class="btn btn-dark">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </article>
+        <article class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="./img/blog/blog2.jpg" alt="people">
+                    </div>
+                </div>                
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>First Racing Bike</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>Poseted by <strong>Avishai Peretz</strong> | March 30 2022
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga tempore dolor. Placeat, unde veniam provident nobis et sit reiciendis.
+                        </p>
+                        <a href="./post.html" class="btn btn-light">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </article>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="./img/blog/blog3.jpg" alt="people">
+                    </div>
+                </div>                
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>First Major Crash</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>Poseted by <strong>Avishai Peretz</strong> | March 31 2022
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga tempore dolor. Placeat, unde veniam provident nobis et sit reiciendis.
+                        </p>
+                        <a href="./post.html" class="btn btn-dark">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </article>
+    </main>
+    
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="https://www.facebook.com/AvishaiPe/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/aviperetz15" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/avishai-peretz-1828621aa/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.instagram.com/avishai.peretz/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <p>Avishai Perets © 2022, All RIghts Reserved</p>
+    </footer>
+    <script>
+        const logo = document.getElementById('avishai-primary');
+        const navbar = document.getElementById('navbar');
+            window.onscroll = function() {
+                if (window.pageYOffset> 100) {
+                    (logo.classList.add('avishai-secondary') , navbar.classList.remove('top'))
+                } else {
+                    (logo.classList.remove('avishai-secondary') , navbar.classList.add('top'))
+                }
+            }
+    </script>
+</body>
+</html>
