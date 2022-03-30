@@ -202,6 +202,7 @@
         </div>
         <p>Avishai Perets © 2022, All RIghts Reserved</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         const logo = document.getElementById('avishai-primary');
         const navbar = document.getElementById('navbar');
@@ -222,6 +223,20 @@
                     scrolled = false;
                 }
             }
+         $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
     </script>
 </body>
 </html>
