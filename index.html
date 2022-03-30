@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/home/92.jpg">
@@ -97,20 +98,36 @@
             </header>
             <div class="row">
                 <div class="column">
-                    <img src="./img/gallery/gallery1.jpg" alt="">
-                    <img src="./img/gallery/gallery2.jpg" alt="">
+                    <a href="./img/gallery/gallery1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery1.jpg" alt="">
+                    </a>
+                    <a href="./img/gallery/gallery2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery2.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/gallery/gallery3.jpg" alt="">
-                    <img src="./img/gallery/gallery4.jpg" alt="">
+                    <a href="./img/gallery/gallery3.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery3.jpg" alt="">
+                    </a>
+                    <a href="./img/gallery/gallery4.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/gallery/gallery5.jpg" alt="">
-                    <img src="./img/gallery/gallery6.jpg" alt="">
+                    <a href="./img/gallery/gallery5.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery5.jpg" alt="">
+                    </a>
+                    <a href="./img/gallery/gallery6.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery6.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/gallery/gallery7.jpg" alt="">
-                    <img src="./img/gallery/gallery8.jpg" alt="">
+                    <a href="./img/gallery/gallery7.jpg"data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery7.jpg" alt="">                      
+                    </a>
+                    <a href="./img/gallery/gallery8.jpg"data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores. Sit hic veniam sunt nemo!">
+                        <img src="./img/gallery/gallery8.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </section>
@@ -203,6 +220,7 @@
         <p>Avishai Perets © 2022, All RIghts Reserved</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox.min.js"></script>
     <script>
         const logo = document.getElementById('avishai-primary');
         const navbar = document.getElementById('navbar');
